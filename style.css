@@ -1,21 +1,23 @@
 #container{
-  border:1px solid #333;
-  border-radius :20px;
   width:400px;
-  margin:20px auto;
-  padding:20px;
+  margin:10px auto;
+  padding:10px;
   text-align:center;
-  background : #333;
+  background : #FFF;
 }
 
 #timer{ 
-  color:#f00; 
-  font-size:50px; 
-  margin:10px auto;
-  border : 5px solid red;
+  color:#f27c05; 
+  font-size:80px; 
+  font-weight:bold;
+  letter-spacing: 3px;
+  font-family: "iWriter Mono";
+  border : 5px solid black;
   border-radius:50%;
-  width:200px;
-  height:200px;
+  background: #ededed;
+  margin:10px auto;
+  width:300px;
+  height:300px;
   overflow:hidden;
   position:relative;
   -webkit-user-select: none;
@@ -26,40 +28,49 @@
 }
 
 #time{
-  margin-top:70px;
+  margin-top:100px;
   z-index : 1;
   position:relative;
 }
 
-#filler{
-  background : #ddffcc;
-  height: 0px;
-  width: 200px;
-  position:absolute;
-  bottom:0;
-}
-
 #buttons button { 
-  background:#4da6ff; 
-  border:none; 
-  color:#fff; 
+  background:#fff; 
+  border:2px solid black; 
+  color:#000; 
   cursor:pointer; 
   padding:5px; 
-  width:90px; 
+  width:100px; 
   margin:10px auto;
   font-size:14px;
   height : 50px;
   border-radius : 50px;
+  spacing: 20px;
 }
 
 #buttons button#shortBreak{
-  background : #0c0;
+  background : #fff;
+}
+
+#buttons button#shortBreak:hover{
+  background : #ffdab5;
+}
+
+#buttons button#longBreak:hover{
+  background : #ffdab5;
 }
 
 #buttons button#longBreak{
-  background : #080;
+  background : #fff;
+}
+
+#buttons button#work:hover{
+  background : #ffdab5;
 }
 
 #buttons button#stop{
-  background : #f00;
+  background : #fff;
+}
+
+#buttons button#stop:hover{
+  background : #ffb5b5;
 }
